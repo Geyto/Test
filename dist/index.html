@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Samsung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script defer src="main.js"></script></head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <div class="logo__img"><img id="logo-img" src="img/logo.png" alt=Логотип></div>
+            <div class="logo__text">Сервисное обслуживание и ремонт техники Samsung Санкт-Петербурге</div>
+        </div>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="" class="menu__link">Ремонт техники</a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__link">Цены</a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__link">Диагностика</a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__link">Срочный ремонт</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="data">
+            <div class="data__phone">+7 (969) 999-42-80</div>
+            <div class="data__time">Eжедневно с 9:00 до 21:00</div>
+        </div>
+        <nav class="burger">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.5 14H24.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3.5 7H24.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3.5 21H24.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </nav>
+    </div>
+</header>
+
+<section class="main-content" id="content"></section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__main-data">
+            <div class="logo-with-data">
+                <div class="logo">
+                    <div class="logo__img"><img src="img/logo.png" alt=Логотип></div>
+                    <div class="logo__text">Сервисное обслуживание и ремонт техники Samsung Санкт-Петербурге</div>
+                </div>
+                <div class="data">
+                    <div class="data__phone">+7 (969) 999-42-80</div>
+                    <div class="data__time">Eжедневно с 9:00 до 21:00</div>
+                </div>
+            </div>
+            <div class="main-links1">
+                <div class="footer__repair-products">
+                    <div class="footer__nav-title">Что мы чиним</div>
+                    <ul class="footer__nav-items">
+                        <li class="footer__nav-item">
+                            <a href="">Смартфоны</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="">Планшеты</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#/laptop">Ноутбуки</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="">Моноблоки</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="">Мониторы</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="">Телевизоры</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="">Проекторы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-links2">
+                    <div class="footer__repair-links">
+                        <ul class="footer__nav-items">
+                            <li class="footer__nav-item"><a href="">Срочный ремонт</a></li>
+                            <li class="footer__nav-item"><a href="">Статус ремонта</a></li>
+                            <li class="footer__nav-item"><a href="">Диагностика</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__other-links">
+                        <ul class="footer__nav-items">
+                            <li class="footer__nav-item"><a href="">Статьи</a></li>
+                            <li class="footer__nav-item"><a href="">Контакты</a></li>
+                            <li class="footer__nav-item"><a href="">Цены</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block-action">
+                <div class="block-action__title">Запись на ремонт</div>
+                <div class="block-action__text">Оставьте свой номер телефона, и менеджер свяжется с вами</div>
+                <div class="block-action__button">
+                    <button class="button" id="button-footer">Записаться</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer__text">
+            <div class="footer-copyright">Copyright © 2022. Копирование и использование информации и материалов сайта
+                запрещено. Сайт носит информационный характер и ни при каких условиях не является офертой. Товарные
+                знаки, торговые марки, фирменные обозначения используемые на сайте, принадлежат производителю и не
+                являются собственностью сервисного центра
+            </div>
+            <div class="footer-politics">
+                Политика конфиденциальности и обработки персональных данных
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="popup" id="popup">
+    <div class="popup__block">
+        <div class="popup__exit" id="popup-exit">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 3L3 9" stroke="#090029" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 3L9 9" stroke="#090029" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="popup__title" id="popup-title">Записаться на ремонт</div>
+        <div class="popup__text" id="popup-text">Оставьте заявку и наш менеджер свяжется с вами в ближайшее время</div>
+        <div class="popup-form">
+            <form id="form">
+            </form>
+            <div class="form-text" id="form-text">
+                Нажимая кнопку «Оставить заявку», вы подтверждаете свое согласие на обработку <a href="">персональных
+                данных</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

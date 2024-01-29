@@ -1,0 +1,579 @@
+@media screen and (max-width: 1200px) {
+  body {
+    .header {
+      .container {
+        padding: 0 16px;
+
+        .menu {
+          display: none;
+        }
+
+        .burger {
+          display: block;
+          margin-left: 28px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .content {
+      .container {
+        padding: 0 16px;
+
+        .background {
+          right: 16px;
+        }
+      }
+    }
+
+    .products {
+      .container {
+        padding: 0 16px;
+        display: block;
+
+        .products__table {
+          margin-right: 0;
+
+          .product {
+            .product-svg {
+              text-align: center;
+            }
+          }
+        }
+
+        .products__action {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 50px;
+        }
+      }
+    }
+
+    .advantages {
+      .container {
+        padding: 0 16px;
+
+        .advantages__title {;
+          width: auto;
+        }
+
+        .advantages__text {
+          width: auto;
+        }
+
+        .advantages__items {
+          display: block;
+          width: 400px;
+          margin: 0 auto;
+
+          .advantages__item {
+            margin-bottom: 30px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .stages{
+      .container{
+        padding: 0 16px;
+      }
+    }
+
+    .contacts{
+      .container{
+        padding: 0 16px;
+      }
+    }
+    .footer {
+      padding: 0 16px;
+
+      .container {
+        .footer__main-data {
+          .logo-with-data {
+            display: flex;
+            justify-content: center;
+
+            .logo {
+              margin-right: 80px;
+            }
+          }
+
+          display: block;
+
+          .main-links1 {
+            justify-content: center;
+            margin-bottom: 20px;
+
+            .main-links2 {
+
+              .footer__repair-links {
+                margin-bottom: 12px;
+              }
+            }
+          }
+
+          .block-action {
+            margin: 0 auto;
+          }
+        }
+
+        .footer__text {
+          display: block;
+          text-align: center;
+
+          .footer-copyright {
+            width: auto;
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  body {
+    .content {
+      .container {
+        overflow: hidden;
+
+        .background {
+          display: none;
+        }
+
+        .content__main {
+          background: linear-gradient(242deg, #1D143D 0%, #090029 100%);
+          border-radius: 20px;
+          overflow: hidden;
+
+          .content__img {
+            right: 70px;
+            z-index: 1;
+          }
+
+          .content__action {
+            .content__nav {
+              display: none;
+            }
+
+            .background-img {
+              width: 500px;
+            }
+          }
+        }
+      }
+    }
+    .stages{
+      .container{
+        padding: 0 16px;
+        .stages__title{
+          width: auto;
+          margin: 0 auto 20px
+        }
+        .stages__items{
+          flex-wrap: wrap;
+          .stages__item{
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    .contacts{
+      .container{
+        display: block;
+        .contacts__items{
+          .contacts__items-title{
+            text-align: center;
+            width: auto;
+          }
+          .contacts__item{
+            .contacts__item-text{
+             text-align: center;
+            }
+            .contacts__item-main-text{
+              text-align: center;
+            }
+          }
+          .contacts__items-action{
+            display: none;
+          }
+        }
+        .contacts__map{
+          text-align: center;
+        }
+        .adaptive{
+          display: block;
+          a{
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  body {
+    .content {
+      .container {
+
+        .content__main {
+          display: block;
+
+          .content__info {
+            .content__title {
+              width: auto;
+            }
+          }
+
+          .content__action {
+            display: flex;
+            justify-content: right;
+
+            .background-img {
+              position: relative;
+              right: -113px;
+            }
+          }
+        }
+      }
+    }
+
+    .products {
+      .container {
+        .products__table {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 728px) {
+  body {
+    .header {
+      .container {
+
+
+        .logo {
+          .logo__img {
+            padding: 11px 12px 11px 0;
+            border-right: 1px solid rgba(0, 0, 0, 0.08);
+          }
+
+          .logo__text {
+            display: none;
+          }
+        }
+      }
+    }
+    .contacts{
+      .container{
+        .contacts__map{
+          text-align: center;
+          iframe{
+            width: 80vw;
+            height: 350px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  body {
+    .header {
+      .container {
+        .logo {
+          margin-right: 10px
+        }
+
+        .menu {
+          display: none;
+        }
+
+        .data {
+          .data__phone {
+            font-size: 16px;
+          }
+        }
+
+        .burger {
+          display: block;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .content {
+      .container {
+
+        .content__main {
+          display: block;
+
+          .content__info {
+            margin-left: 26px;
+            margin-bottom: 35px;
+            position: relative;
+            z-index: 3;
+
+            .content__title {
+              width: auto;
+              font-size: 28px;
+              margin-bottom: 26px;
+            }
+
+            .content__texts {
+              .content__text {
+                span {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+
+          .content__img {
+            left: 42px;
+
+            img {
+              width: 291px;
+            }
+          }
+
+          .content__action {
+            display: flex;
+            justify-content: right;
+            height: 250px;
+
+            .background-img {
+              position: relative;
+              z-index: 0;
+              right: -113px;
+            }
+          }
+        }
+      }
+    }
+
+    .products {
+      .container {
+        .products__table {
+          grid-template-columns: 1fr 1fr;
+          grid-column-gap: 15px;
+
+          .product {
+            padding: 10px;
+
+            .product-svg {
+              padding: 36px 0 55px 0;
+            }
+
+            .product-image {
+              img {
+                width: 144px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .stages{
+      .container{
+        padding: 0 19px;
+        .stages__title{
+          font-size: 24px;
+        }
+        .stages__items{
+          flex-wrap: wrap;
+          justify-content: center;
+          .stages__item{
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+
+    .footer {
+      .container {
+        .footer__main-data {
+          .logo-with-data {
+            display: block;
+            text-align: center;
+
+            .logo {
+              margin-right: 0;
+              margin-bottom: 50px;
+
+              .logo__text {
+                width: auto;
+              }
+            }
+
+            .data {
+              margin-bottom: 50px;
+            }
+          }
+
+          display: block;
+
+          .main-links1 {
+            margin-bottom: 20px;
+
+            .main-links2 {
+              display: block;
+
+              .footer__repair-links {
+                margin-bottom: 12px;
+              }
+            }
+          }
+
+          .block-action {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    .products {
+      .container {
+        .products__table {
+          margin-right: 0;
+
+          .product {
+            height: 198px;
+
+            .tabled-title {
+              bottom: 0;
+            }
+
+            .product-svg {
+              padding: 36px 0 16px 0;
+            }
+          }
+        }
+
+        .products__action {
+          .block-action {
+            background: none;
+            padding: 0;
+
+            .block-action__title {
+              display: none;
+            }
+
+            .block-action__text {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .advantages {
+      .container {
+        padding: 0 16px;
+
+        .advantages__title {;
+          font-size: 24px;
+        }
+
+        .advantages__text {
+          font-size: 16px;
+        }
+
+        .advantages__items {
+          .advantages__item{
+            .advantages__item-title{
+              font-size: 18px
+            }
+            .advantages__item-text{
+              font-size: 16px;
+              width: 322px;
+            }
+          }
+          width: 344px;
+
+        }
+      }
+    }
+    .contacts{
+      .container{
+        .contacts__items{
+          .contacts__items-title{
+            font-size: 24px;
+          }
+          .contacts__item{
+            .contacts__item-text{
+              font-size: 14px;
+            }
+            .contacts__item-main-text{
+              font-size: 16px;
+            }
+          }
+        }
+        .adaptive{
+          a{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .footer {
+      .container {
+        .footer__main-data {
+          .logo-with-data {
+            display: block;
+            text-align: center;
+
+            .logo {
+              margin-right: 0;
+              margin-bottom: 50px;
+
+              .logo__text {
+                width: auto;
+              }
+            }
+
+            .data {
+              margin-bottom: 50px;
+            }
+          }
+
+          .main-links1 {
+            margin-bottom: 50px;
+
+            .footer__repair-products {
+              margin-right: 36px;
+            }
+          }
+
+          .block-action {
+            margin: 0 auto;
+            width: 343px;
+            padding: 25px 20px 20px 20px;
+
+            .block-action__button {
+              .button {
+                width: 303px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+
+.content__laptop {
+  position: relative;
+  margin-top: 16px;
+
+  .background {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .container {
+    border-radius: 20px;
+    position: relative;
+
+    .content__main__laptop {
+      display: flex;
+      justify-content: space-between;
+
+      .content__info__laptop {
+        margin-left: 60px;
+        border-radius: 20px;
+        .content__nav__laptop {
+          margin-top: 47px;
+          a{
+            text-decoration: none;
+            color: #FFF;
+            font-family: "Onest" , sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+
+          }
+          span{
+            color: rgba(#FFF, 0.5);
+            font-family: "Onest",sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: 12px;
+          }
+        }
+
+        .content__title__laptop {
+          color: #FFF;
+          font-family: 'Mulish-Bold', sans-serif;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin-top: 16px;
+          margin-bottom: 30px;
+          width: 397px;
+        }
+
+        .content__texts__laptop {
+          .content__text {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            span {
+              color: #FFF;
+              font-family: 'Mulish-SemiBold', sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      .content__img__laptop {
+        position: absolute;
+        bottom: 25px;
+        right: 233px;
+      }
+
+      .content__action {
+        .content__nav {
+          background-color: #FFFFFF;
+          border-radius: 0 0 20px 20px;
+          box-sizing: border-box;
+          padding: 0 0 17px 0;
+
+          .content__links {
+            border-radius: 50px;
+            background: rgba(#090029, 0.04);
+            padding: 7px 31px 7px 30px;
+
+            a {
+              text-decoration: none;
+              color: #090029;
+              font-family: 'Mulish-SemiBold', sans-serif;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              margin-right: 30px;
+
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+
+        .background-img {
+          background-image: url("../../dist/img/content-background.png");
+          height: 380px;
+          width: 100%;
+          background-size: contain;
+          background-position: right;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}
+
+.products-laptop {
+  padding-top: 30px;
+  padding-bottom: 120px;
+
+  .container {
+    .products-laptop__info{
+      display: flex;
+      padding-bottom: 60px;
+      align-items: center;
+      .products-laptop-text{
+        color: #140B35;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        border-radius: 20px;
+        background: linear-gradient(242deg, rgba(29, 20, 61, 0.03) 0%, rgba(9, 0, 41, 0.03) 100%);
+        padding: 30px;
+        box-sizing: border-box;
+        width: 652px;
+        margin-right: 30px;
+      }
+      .products-laptop__action {
+        .block-action-laptop {
+          width: 458px;
+          border-radius: 10px;
+          background: linear-gradient(242deg, #1D143D 0%, #090029 100%);
+          box-sizing: border-box;
+          padding: 30px;
+
+          .block-action__title {
+            color: #FFF;
+            font-family: 'Mulish-Bold', sans-serif;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 16px;
+          }
+
+          .block-action__text {
+            color: rgba(#FFF, 0.6);
+            font-family: 'Mulish-Medium', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 140%;
+            margin-bottom: 98px;
+            width: 398px;
+          }
+
+          .block-action__button {
+            text-align: center;
+
+            .button {
+              width: 398px;
+              padding: 14px 33px;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .products-laptop-items {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+      .product-item {
+        padding: 10px;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0 10px 80px -5px rgba(0, 0, 0, 0.06);
+        box-sizing: border-box;
+
+        .product-image {
+          margin-bottom: 20px;
+          text-align: center;
+        }
+
+        .product-title {
+          color: #090029;
+          text-align: center;
+          font-family: 'Mulish-SemiBold', sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          padding-bottom: 10px;
+
+        }
+      }
+    }
+  }
+}
+
+.advantages-laptop {
+  padding-bottom: 150px;
+
+  .container {
+    .advantages-laptop__title {
+      color: #140B35;
+      text-align: center;
+      font-family: 'Mulish-Bold', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      width: 750px;
+      margin: 0 auto 30px;
+    }
+
+    .advantages-laptop__text {
+      color: $gray-text-color;
+      text-align: center;
+      font-family: 'Mulish-Medium', sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      margin: 0 auto 50px;
+      width: 944px;
+    }
+
+    .advantages-laptop__action {
+      text-align: center;
+      margin-bottom: 50px;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #183FE1;
+        font-family: 'Mulish-Bold', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+
+        svg {
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .advantages-laptop__items {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-bottom: 50px;
+      .advantages-laptop__item {
+        display: flex;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 19px 20px;
+        cursor: pointer;
+        max-width: 285px;
+        svg{
+          margin-right: 12px;
+        }
+        .advantages-laptop-info{
+          .advantages-laptop__item-title {
+            color: #140B35;
+            font-family: 'Mulish-Bold', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 8px;
+            max-width: 285px;
+          }
+
+          .advantages-laptop-text {
+            color: rgba(#140B35, 0.6);
+            font-family: 'Mulish-Medium', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+            max-width: 285px;
+          }
+        }
+        &:hover{
+          background: rgba(11, 20, 58, 0.03);
+        }
+      }
+    }
+  }
+}
+
+.slider{
+  padding-bottom: 70px;
+  .container{
+    .slider__title{
+      color: #140B35;
+      text-align: center;
+      font-family: 'Mulish-Bold', sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+
+    }
+
+  }
+}

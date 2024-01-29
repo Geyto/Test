@@ -1,0 +1,463 @@
+@import "fonts";
+@import "variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FDFCFE;
+
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .header {
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 60px;
+
+        .logo__img {
+          padding-right: 12px;
+          height: 20px;
+        }
+
+        .logo__text {
+          color: #090029;
+          font-family: "Mulish", sans-serif;
+          font-size: 14px;
+          line-height: normal;
+          opacity: 0.6;
+          border-left: 1px solid rgba(0, 0, 0, 0.08);
+          padding-left: 14px;
+          width: 249px;
+        }
+      }
+
+      .menu {
+        margin-right: 59px;
+        width: 445px;
+
+        .menu__list {
+          display: flex;
+          align-items: center;
+          padding-inline-start: 0;
+
+          .menu__item {
+            list-style: none;
+            margin-right: 30px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+
+            .menu__link {
+              text-decoration: none;
+              color: $blue-text-color;
+              font-family: "Mulish-SemiBold", sans-serif;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .burger{
+        display: none;
+      }
+
+      .data {
+        .data__phone {
+          color: #090029;
+          font-family: "Mulish-Bold", sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          margin-bottom: 5px;
+        }
+
+        .data__time {
+          color: #090029;
+          font-family: "Mulish", sans-serif;
+          font-size: 12px;
+          opacity: 0.65;
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    border-radius: 20px 20px 0 0;
+    background: rgba(#090029, 0.04);
+
+    .container {
+      .footer__main-data {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);;
+        padding-top: 50px;
+        padding-bottom: 67px;
+
+        .logo-with-data {
+          .logo {
+            margin-bottom: 30px;
+
+            .logo__img {
+              margin-bottom: 18px;
+            }
+
+            .logo__text {
+              color: $gray-text-color;
+              font-family: "Mulish", sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: normal;
+              width: 188px;
+            }
+          }
+
+          .data {
+            .data__phone {
+              color: #090029;
+              font-family: 'Mulish-Bold', sans-serif;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 700;
+              margin-bottom: 5px;
+            }
+
+            .data__time {
+              color: $gray-text-color;
+              font-family: "Mulish", sans-serif;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+            }
+          }
+        }
+        .main-links1{
+          display: flex;
+          align-items: start;
+          justify-content: space-between;
+
+          .footer__repair-products {
+            margin-right: 66px;
+            .footer__nav-title {
+              color: #140B35;
+              font-family: 'Mulish-Bold', sans-serif;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 140%;
+              text-transform: uppercase;
+              margin-bottom: 12px;
+            }
+          }
+          .main-links2{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            .footer__repair-links{
+              margin-right: 51px;
+            }
+
+          }
+        }
+
+
+        .block-action {
+          width: 360px;
+          border-radius: 10px;
+          background: linear-gradient(242deg, #1D143D 0%, #090029 100%);
+          box-sizing: border-box;
+          padding: 25px 25px 20px 25px;
+
+          .block-action__title {
+            color: #FFF;
+            font-family: 'Mulish-Bold', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 12px;
+          }
+
+          .block-action__text {
+            color: rgba(#FFF, 0.6);
+            font-family: 'Mulish-Medium', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+            margin-bottom: 50px;
+            width: 260px;
+          }
+
+          .block-action__button {
+            .button {
+              width: 320px;
+            }
+          }
+        }
+
+        .footer__nav-items {
+          padding-inline-start: 0;
+          margin-block-start: 0;
+          margin-block-end: 0;
+
+          .footer__nav-item {
+            list-style: none;
+            margin-bottom: 12px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            a {
+              text-decoration: none;
+              color: rgba(#140B35, 0.65);
+              font-family: 'Mulish-Medium', sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 140%;
+
+            }
+          }
+        }
+      }
+
+      .footer__text {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-copyright {
+          color: $gray-text-color;
+          font-family: "Mulish", sans-serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          margin-right: 83px;
+          width: 1556px
+        }
+
+        .footer-politics {
+          color: $gray-text-color;
+          font-family: 'Mulish-Medium', sans-serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 140%;
+        }
+      }
+    }
+  }
+
+  .button {
+    padding: 12px 33px;
+    text-align: center;
+    border-radius: 10px;
+    background: #183FE1;
+    color: #FFF;
+    font-family: 'Mulish-Bold', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(#183FE1, 0.9);
+    }
+  }
+}
+
+@import "main";
+@import "laptop";
+@import "../../node_modules/slick-carousel/slick/slick";
+@import "adaptive";
+
+
+
+.carousel {
+  position: relative;
+
+  .carousel__item {
+    padding: 50px 0;
+
+    .item-link {
+      border-radius: 10px;
+      background: #FFF;
+      box-shadow: 0 10px 80px -5px rgba(0, 0, 0, 0.06);
+      padding: 20px;
+      box-sizing: border-box;
+      margin: 0 15px;
+
+      a {
+        text-decoration: none;
+        text-align: center;
+        color: #090029;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+
+        div {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  &__img {
+    max-height: 400px;
+    margin: 0 auto 25px auto;
+
+  }
+
+  .tabled-slick {
+    margin-bottom: 65px;
+  }
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 60px;
+
+  &::before {
+    display: table;
+    font-size: 60px;
+    line-height: 1;
+  }
+}
+
+.slick-prev {
+  background-color: white;
+  font-size: 0;
+  left: -90px;
+
+  &::before {
+    content: url("../image/prev.png");
+  }
+}
+
+.slick-next {
+  background-color: white;
+  font-size: 0;
+  right: -90px;
+
+  &::before {
+    content: url("../image/next.png");
+  }
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(#000019, 0.6);
+  height: 100%;
+  width: 100%;
+
+  .popup__block {
+    position: relative;
+    border-radius: 10px;
+    background: #FFF;
+    width: 555px;
+    margin: 169px auto;
+    padding: 40px 60px;
+    box-sizing: border-box;
+
+    .popup__exit {
+      position: absolute;
+      top: 20px;
+      right: -40px;
+      width: 22px;
+      height: 22px;
+      border-radius: 3px;
+      background: #FFF;
+      display: flex;
+      padding: 5px;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+    .popup__title {
+      color: #090029;
+      text-align: center;
+      font-family: 'Mulish-Bold', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .popup__text {
+      color: rgba(#090029, 0.6);
+      text-align: center;
+      font-family: "Mulish", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 140%;
+      margin-bottom: 40px;
+    }
+
+    .popup-form {
+      .popup-input {
+        width: 435px;
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        padding: 14px 22px;
+        box-sizing: border-box;
+        margin-bottom: 18px;
+        color: rgba(9, 0, 41, 0.60);
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        appearance: none;
+        outline: none;
+      }
+
+      .select-background {
+        background: url("../../dist/img/chevron-down.svg") no-repeat;
+        background-position-x: calc(100% - 22px);
+        background-position-y: center;
+      }
+
+      .button-popup {
+        width: 435px;
+        padding: 14px 33px;
+        margin: 22px 0;
+      }
+      .form-text{
+        color: rgba(#090029, 0.35);
+        text-align: center;
+        font-family: "Mulish" ,sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 150%;
+        a{
+          color: rgba(#090029, 0.35);
+          text-decoration: none;
+          border-bottom: 1px solid rgba(#090029, 0.35);
+        }
+      }
+    }
+  }
+}
+
